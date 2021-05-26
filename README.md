@@ -1,3 +1,3 @@
 # FireChat
-Flutter x Firebase
+## Flutter x Firebase
 A simple chat app currently in very early stages.
