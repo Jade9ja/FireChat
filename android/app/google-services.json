@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "64999211926",
+    "project_id": "fire-chat-56b40",
+    "storage_bucket": "fire-chat-56b40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64999211926:android:9d5a8fece0673f028453b7",
+        "android_client_info": {
+          "package_name": "co.appbrewery.flash_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64999211926-rsqckbcr5cf7fbd7ambca4molt96oaq2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwbo1aE9y-gmFeaw4J4MXx6u9AFCnYte4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64999211926-rsqckbcr5cf7fbd7ambca4molt96oaq2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

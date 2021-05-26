@@ -21,7 +21,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
       duration: Duration(seconds: 1),
     );
     animation = ColorTween(
-      begin: Colors.blueGrey,
+      begin: Colors.redAccent,
       end: Colors.white,
     ).animate(controller);
     controller.forward();
@@ -48,15 +48,17 @@ class _WelcomeScreenState extends State<WelcomeScreen>
           children: <Widget>[
             Row(
               children: <Widget>[
-                Hero(
-                  tag: 'logo',
-                  child: Container(
-                    child: Image.asset('images/logo.png'),
-                    height: 60.0,
+                Flexible(
+                  child: Hero(
+                    tag: 'logo',
+                    child: Container(
+                      child: Image.asset('images/logo.png'),
+                      height: 105.0,
+                    ),
                   ),
                 ),
                 Text(
-                  'Flash Chat',
+                  'Fire Chat',
                   style: TextStyle(
                     fontSize: 45.0,
                     fontWeight: FontWeight.w900,
@@ -72,14 +74,14 @@ class _WelcomeScreenState extends State<WelcomeScreen>
               onPressed: () {
                 Navigator.pushNamed(context, LoginScreen.id);
               },
-              buttoncolor: Colors.lightBlueAccent,
+              buttoncolor: Color(0xFF311b92),
             ),
             Defaultbuttondesign(
               textdata: 'Register',
               onPressed: () {
                 Navigator.pushNamed(context, RegistrationScreen.id);
               },
-              buttoncolor: Colors.blueAccent,
+              buttoncolor: Color(0xFF5b6abf),
             ),
           ],
         ),
