@@ -1,2 +1,3 @@
 # FireChat
-A simple chat app. Flutter x Firebase Cloud firestore
+Flutter x Firebase
+A simple chat app currently in very early stages.
